@@ -1,0 +1,28 @@
+[
+{
+    "seq":"1",
+    "name": "function type name, at referred position",
+    "file": "pkg/ctx/ctx.go",
+    "offset": 8068,
+    "path": ".",
+    "expected":
+        [
+            "pkg/ctx/ctx.go:160:6",
+            "pkg/ctx/ctx.go:163:12",
+            "pkg/ctx/ctx.go:304:12"
+        ]
+},
+{
+    "seq":"2",
+    "name": "function type name, at declaration",
+    "file": "pkg/ctx/ctx.go",
+    "offset": 4419,
+    "path": ".",
+    "expected":
+        [
+            "pkg/ctx/ctx.go:160:6",
+            "pkg/ctx/ctx.go:163:12",
+            "pkg/ctx/ctx.go:304:12"
+        ]
+}
+]

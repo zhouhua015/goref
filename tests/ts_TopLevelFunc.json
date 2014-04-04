@@ -1,0 +1,31 @@
+[
+{
+    "seq":"1",
+    "name": "unexported top level function, at referred position",
+    "file": "pkg/ctx/ctx.go",
+    "offset": 2819,
+    "path": ".",
+    "expected":
+        [
+            "pkg/ctx/ctx.go:107:35",
+            "pkg/ctx/ctx.go:108:73",
+            "pkg/ctx/ctx.go:128:37",
+            "pkg/ctx/ctx.go:132:12",
+            "pkg/ctx/ctx.go:142:36",
+            "pkg/ctx/ctx.go:143:74",
+            "pkg/ctx/ctx.go:281:6"
+        ]
+},
+{
+    "seq":"2",
+    "name": "unexported top level function, at declaration",
+    "file": "pkg/ctx/ctx.go",
+    "offset": 7799,
+    "path": ".",
+    "expected":
+        [
+           "pkg/ctx/ctx.go:81:46",
+           "pkg/ctx/ctx.go:294:6"
+        ]
+}
+]

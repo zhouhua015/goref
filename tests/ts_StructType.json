@@ -1,0 +1,92 @@
+[
+{
+    "seq":"1",
+    "name": "name of struct itself, at referred position",
+    "file": "pkg/shape/factory.go",
+    "offset": 683,
+    "path": ".",
+    "expected":
+        [
+            "pkg/shape/factory.go:26:6",
+            "pkg/shape/factory.go:31:9",
+            "pkg/shape/factory.go:35:9",
+            "pkg/shape/factory.go:39:51",
+            "pkg/shape/factory.go:42:15",
+            "pkg/shape/factory.go:44:15",
+            "pkg/shape/factory.go:46:15",
+            "pkg/shape/factory.go:48:15",
+            "pkg/main/test.go:8:22",
+            "pkg/main/test.go:14:14"
+        ]
+},
+{
+    "seq":"2",
+    "name": "name of struct itself, at referred position, value part of composite literal",
+    "file": "pkg/shape/shape.go",
+    "offset": 244,
+    "path": ".",
+    "expected":
+        [
+            "pkg/shape/shape.go:16:6",
+            "pkg/shape/shape.go:21:33",
+            "pkg/shape/shape.go:22:10",
+            "pkg/shape/shape.go:25:10",
+            "pkg/shape/shape.go:29:10"
+        ]
+},
+{
+    "seq":"3",
+    "name": "name of struct itself, struct method recv pointer-type",
+    "file": "pkg/shape/shape.go",
+    "offset": 370,
+    "path": ".",
+    "expected":
+        [
+            "pkg/shape/shape.go:16:6",
+            "pkg/shape/shape.go:21:33",
+            "pkg/shape/shape.go:22:10",
+            "pkg/shape/shape.go:25:10",
+            "pkg/shape/shape.go:29:10"
+        ]
+},
+{
+    "seq":"4",
+    "name": "name of struct itself, struct method recv value-type",
+    "file": "pkg/shape/factory.go",
+    "offset": 425,
+    "path": ".",
+    "expected":
+        [
+            "pkg/shape/factory.go:26:6",
+            "pkg/shape/factory.go:31:9",
+            "pkg/shape/factory.go:35:9",
+            "pkg/shape/factory.go:39:51",
+            "pkg/shape/factory.go:42:15",
+            "pkg/shape/factory.go:44:15",
+            "pkg/shape/factory.go:46:15",
+            "pkg/shape/factory.go:48:15",
+            "pkg/main/test.go:8:22",
+            "pkg/main/test.go:14:14"
+        ]
+},
+{
+    "seq":"5",
+    "name": "name of struct itself, at declaration",
+    "file": "pkg/shape/factory.go",
+    "offset": 368,
+    "path": ".",
+    "expected":
+        [
+            "pkg/shape/factory.go:26:6",
+            "pkg/shape/factory.go:31:9",
+            "pkg/shape/factory.go:35:9",
+            "pkg/shape/factory.go:39:51",
+            "pkg/shape/factory.go:42:15",
+            "pkg/shape/factory.go:44:15",
+            "pkg/shape/factory.go:46:15",
+            "pkg/shape/factory.go:48:15",
+            "pkg/main/test.go:8:22",
+            "pkg/main/test.go:14:14"
+        ]
+}
+]

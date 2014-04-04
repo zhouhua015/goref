@@ -1,0 +1,89 @@
+[
+{
+    "seq":"1",
+    "name": "field of struct, at referred position",
+    "file": "pkg/shape/shape.go",
+    "offset": 708,
+    "path": ".",
+    "expected":
+        [
+            "pkg/shape/shape.go:34:2",
+            "pkg/shape/shape.go:47:11"
+        ]
+},
+{
+    "seq":"2",
+    "name": "func type field of struct, at referred position",
+    "file": "pkg/ctx/ctx.go",
+    "offset": 7394,
+    "path": ".",
+    "expected":
+        [
+            "pkg/ctx/ctx.go:34:2",
+            "pkg/ctx/ctx.go:274:7"
+        ]
+},
+{
+    "seq":"3",
+    "name": "func type field of struct, at declaration",
+    "file": "pkg/ctx/ctx.go",
+    "offset": 645,
+    "path": ".",
+    "expected":
+        [
+            "pkg/ctx/ctx.go:34:2",
+            "pkg/ctx/ctx.go:274:7"
+        ]
+},
+{
+    "seq":"4",
+    "name": "field of struct, in composite literal",
+    "file": "pkg/header/header.go",
+    "offset": 299,
+    "path": ".",
+    "expected":
+        [
+            "pkg/header/header.go:9:2",
+            "pkg/header/header.go:25:5",
+            "pkg/header/header.go:33:5",
+            "pkg/header/header.go:41:5",
+            "pkg/header/header.go:54:5"
+        ]
+},
+{
+    "seq":"5",
+    "name": "field of struct, at declaration",
+    "file": "pkg/sbj/sbj.go",
+    "offset": 355,
+    "path": ".",
+    "expected":
+        [
+            "pkg/sbj/sbj.go:21:2",
+            "pkg/sbj/sbj.go:84:27",
+            "pkg/sbj/sbj.go:110:51",
+            "pkg/ctx/ctx.go:108:38",
+            "pkg/ctx/ctx.go:129:40",
+            "pkg/ctx/ctx.go:143:39"
+        ]
+},
+{
+    "seq":"6",
+    "name": "struct field, at nested composite literal",
+    "file": "pkg/header/header.go",
+    "offset": 339,
+    "path": ".",
+    "expected":
+        [
+            "pkg/header/header.go:4:2",
+            "pkg/header/header.go:27:6",
+            "pkg/header/header.go:35:6",
+            "pkg/header/header.go:43:6",
+            "pkg/header/header.go:56:6",
+            "pkg/header/header.go:63:6",
+            "pkg/header/header.go:70:6",
+            "pkg/header/header.go:82:6",
+            "pkg/header/header.go:89:6",
+            "pkg/header/header.go:96:6"
+        ]
+}
+]

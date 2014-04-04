@@ -1,0 +1,155 @@
+[
+{
+    "seq":"1",
+    "name": "local ident, at short var declaration",
+    "file": "pkg/shape/shape.go",
+    "offset": 814,
+    "path": ".",
+    "expected":
+        [
+            "pkg/shape/shape.go:55:2",
+            "pkg/shape/shape.go:56:2",
+            "pkg/shape/shape.go:57:2",
+            "pkg/shape/shape.go:58:9"
+        ]
+},
+{
+    "seq":"2",
+    "name": "local ident, at var declaration",
+    "file": "pkg/main/test.go",
+    "offset": 216,
+    "path": ".",
+    "expected":
+        [
+            "pkg/main/test.go:14:6",
+            "pkg/main/test.go:15:2",
+            "pkg/main/test.go:16:10",
+            "pkg/main/test.go:17:2",
+            "pkg/main/test.go:18:10",
+            "pkg/main/test.go:19:2",
+            "pkg/main/test.go:20:10",
+            "pkg/main/test.go:21:2",
+            "pkg/main/test.go:22:10"
+        ]
+},
+{
+    "seq":"3",
+    "name": "local ident, at referred position",
+    "file": "pkg/main/test.go",
+    "offset": 387,
+    "path": ".",
+    "expected":
+        [
+            "pkg/main/test.go:14:6",
+            "pkg/main/test.go:15:2",
+            "pkg/main/test.go:16:10",
+            "pkg/main/test.go:17:2",
+            "pkg/main/test.go:18:10",
+            "pkg/main/test.go:19:2",
+            "pkg/main/test.go:20:10",
+            "pkg/main/test.go:21:2",
+            "pkg/main/test.go:22:10"
+        ]
+},
+{
+    "seq":"4",
+    "name": "local ident, as func parameter",
+    "file": "pkg/shape/shape.go",
+    "offset": 786,
+    "path": ".",
+    "expected":
+        [
+            "pkg/shape/shape.go:54:19",
+            "pkg/shape/shape.go:56:11"
+        ]
+},
+{
+    "seq":"5",
+    "name": "local ident, as method recv name, value-type",
+    "file": "pkg/shape/factory.go",
+    "offset": 500,
+    "path": ".",
+    "expected":
+        [
+            "pkg/shape/factory.go:35:7",
+            "pkg/shape/factory.go:36:24"
+        ]
+},
+{
+    "seq":"6",
+    "name": "local ident, as method recv name, pointer-type",
+    "file": "pkg/shape/shape.go",
+    "offset": 366,
+    "path": ".",
+    "expected":
+        [
+            "pkg/shape/shape.go:29:7",
+            "pkg/shape/shape.go:30:9",
+            "pkg/shape/shape.go:30:18"
+        ]
+},
+{
+    "seq":"7",
+    "name": "local ident, parameter of function/method, whose name is the same with one parameter of the function literal it contains",
+    "file": "pkg/ctx/ctx.go",
+    "offset": 4472,
+    "path": ".",
+    "expected":
+        [
+            "pkg/ctx/ctx.go:162:26",
+            "pkg/ctx/ctx.go:214:14"
+        ]
+},
+{
+    "seq":"8",
+    "name": "local ident, parameter of function literal, whose name is the same with local ident at outer function/method",
+    "file": "pkg/ctx/ctx.go",
+    "offset": 4612,
+    "path": ".",
+    "expected":
+        [
+            "pkg/ctx/ctx.go:167:15",
+            "pkg/ctx/ctx.go:171:15"
+        ]
+},
+{
+    "seq":"9",
+    "name": "local ident, at 1st declaration, multiple redeclarations",
+    "file": "pkg/ctx/ctx.go",
+    "offset": 1112,
+    "path": ".",
+    "expected":
+        [
+            "pkg/ctx/ctx.go:52:7",
+            "pkg/ctx/ctx.go:53:5",
+            "pkg/ctx/ctx.go:54:61",
+            "pkg/ctx/ctx.go:58:5",
+            "pkg/ctx/ctx.go:60:62",
+            "pkg/ctx/ctx.go:63:21",
+            "pkg/ctx/ctx.go:64:5",
+            "pkg/ctx/ctx.go:65:10",
+            "pkg/ctx/ctx.go:70:7",
+            "pkg/ctx/ctx.go:71:19",
+            "pkg/ctx/ctx.go:72:70",
+            "pkg/ctx/ctx.go:83:2",
+            "pkg/ctx/ctx.go:84:5",
+            "pkg/ctx/ctx.go:85:10"
+        ]
+},
+{
+    "seq":"10",
+    "name": "local ident, named return value",
+    "file": "pkg/shape/factory.go",
+    "offset": 615,
+    "path": ".",
+    "expected":
+        [
+            "pkg/shape/factory.go:39:41",
+            "pkg/shape/factory.go:42:3",
+            "pkg/shape/factory.go:44:3",
+            "pkg/shape/factory.go:46:3",
+            "pkg/shape/factory.go:48:3",
+            "pkg/shape/factory.go:51:9"
+        ]
+}
+]

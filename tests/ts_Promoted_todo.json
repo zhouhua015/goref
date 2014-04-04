@@ -1,0 +1,17 @@
+[
+{
+    "name": "name of struct, it's a `promoted` field in another struct",
+    "file": "pkg/shape/shape.go",
+    "offset": 387,
+    "path": ".",
+    "expected":
+        [
+            "pkg/shape/shape.go:33:6",
+            "pkg/shape/shape.go:38:38",
+            "pkg/shape/shape.go:39:13",
+            "pkg/shape/shape.go:42:10",
+            "pkg/shape/shape.go:46:10",
+            "pkg/shape/shape.go:51:5"
+        ]
+}
+]

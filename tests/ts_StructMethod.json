@@ -1,0 +1,27 @@
+[
+{
+    "seq":"1",
+    "name": "struct method, at referred position",
+    "file": "pkg/main/test.go",
+    "offset": 167,
+    "path": ".",
+    "expected":
+        [
+            "pkg/shape/factory.go:35:25",
+            "pkg/main/test.go:10:34"
+        ]
+},
+{
+    "seq":"2",
+    "name": "struct method, at declaration",
+    "file": "pkg/ctx/ctx.go",
+    "offset": 4470,
+    "path": ".",
+    "expected":
+        [
+            "pkg/ctx/ctx.go:162:21",
+            "pkg/ctx/ctx.go:220:7",
+            "pkg/ctx/ctx.go:226:7"
+        ]
+}
+]
